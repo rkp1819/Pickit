@@ -1,0 +1,18 @@
+{
+  "name": "Collab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd ./pickit_frontend && nodemon init",
+    "server": "cd ./pickit_backend && nodemon init ",
+    "start": "concurrently \"npm run client\" \"npm run server\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@closeio/use-infinite-scroll": "^1.0.0"
+  }
+}
